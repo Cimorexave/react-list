@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
 import List from './components/List';
-import Input from './Input';
+import Input from './components/Input';
 import { v4 as uuidv4 } from 'uuid';
 
 const arrayOfNotes = []

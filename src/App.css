@@ -19,6 +19,9 @@
     margin-top: 18%;
     background-color: pink;
 }
+.listView {
+    border: solid 1px black;
+}
 .clearBtn {
     position: fixed;
     bottom: 3%;

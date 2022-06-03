@@ -1,5 +1,6 @@
 import { clear } from '@testing-library/user-event/dist/clear';
 import React, {useState} from 'react'
+import './input.css'
 
 const Input = ({pullData_function}) => {
     const [note , setNote] = useState("") 
@@ -12,10 +13,9 @@ const Input = ({pullData_function}) => {
   return (
     <>
         <form onSubmit={handleAdd}>
-            <label htmlFor="">input your note:
-                <input type="text" value={note} onChange={e => setNote(e.target.value)}/>
-            </label>
-            <input type="submit" value= "Add"/>
+            <p> Type in your Note... </p>
+            <input className='textField' type="text" value={note} onChange={e => setNote(e.target.value)}/>
+            <input className='addBtn' type="submit" value= "Add"/>
         </form>
     </>
   )

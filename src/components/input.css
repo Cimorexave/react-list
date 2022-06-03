@@ -1,0 +1,28 @@
+form {
+    position: relative;
+    padding-bottom:  2ch;
+}
+p {
+    padding-left: 2ch;
+    text-align: left;
+    font-weight: bold;
+    font-size: small;
+}
+.textField {
+    border-radius: 1em;
+    box-shadow: 1px 1px ;
+    height: 3ch;
+    display: block;
+    margin-left: 1.5ch;
+    background-color: whitesmoke;
+    border: 2px solid grey;
+}
+.addBtn {
+    position: absolute;
+    right: 2ch;
+    top: 43%;
+    width: 6em;
+    aspect-ratio: 3;
+    border-radius: 1em;
+    box-shadow: 1px 1px 10px;
+}
