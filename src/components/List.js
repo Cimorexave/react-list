@@ -1,14 +1,14 @@
 import React, {useState, useEffect} from 'react'
-import ListItem from './ListItem'
+import { v4 as uuidv4 } from 'uuid';
 
 const List = ({notes}) => {
-    useEffect(()=> {
-        console.log('notes changed: ', notes)
-    })
+  console.log('notes are: ' ,notes)
   return (
     <>
         {notes.map((item) => { return (
-            <p key={Math.random()*notes.length}> {item} </p>
+            <div key={uuidv4()}>
+              {item}
+            </div>
         )})}
     </>
   )
