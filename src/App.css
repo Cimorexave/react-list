@@ -40,3 +40,17 @@ body {
     background-color:  rgb(25, 19, 61);
     color: white;
 }
+
+@media screen and (min-width: 767px) {
+    .header {
+        justify-content: left;
+        padding-left: 1em;
+        font-size: x-large;
+    }
+    .clearBtn {
+        width: 8em;
+    }
+    .inputField {
+        margin-top: 10%;
+    }
+}

@@ -12,3 +12,12 @@
     font-style: italic;
     color: white;
 }
+@media screen and (min-width: 767px) {
+    .title {
+        font-size: large;
+    }
+    .item {
+        font-size: large;
+        padding: 3.5%;
+    }
+}

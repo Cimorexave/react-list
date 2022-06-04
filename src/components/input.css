@@ -29,3 +29,17 @@ p {
     background-color:  rgb(25, 19, 61);
     color: white;
 }
+@media screen and (min-width: 767px) {
+    .addBtn {
+        width: 9em;
+        height: 5ch;
+        font-size: larger;
+    }
+    .textField {
+        width: 25em;
+        height: 5ch;
+    }
+    p {
+        font-size: larger;
+    }
+}
