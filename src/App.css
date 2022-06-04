@@ -1,5 +1,8 @@
+body {
+    background-color: rgb(5, 114, 181);
+}
 .header {
-    background-color: lightgrey;
+    background-color: rgb(25, 19, 61);
     position: fixed;
     height: 10%;
     width: 100%;
@@ -10,6 +13,9 @@
     justify-content: center;
     font-size: larger;
     font-weight: bold;
+    color: white;
+    z-index: 10;
+    box-shadow: 1px 1px 0.8em;
 }
 .container {
     display: flex;
@@ -17,10 +23,9 @@
 }
 .inputField {
     margin-top: 18%;
-    background-color: pink;
 }
 .listView {
-    border: solid 1px black;
+    margin-bottom: 20%;
 }
 .clearBtn {
     position: fixed;
@@ -31,5 +36,7 @@
     font-style: italic;
     letter-spacing: 0.3ch;
     border-radius: 5em;
-    box-shadow: 0.5em 0.5em 2em;
+    box-shadow: 1px 1px 0.5em;
+    background-color:  rgb(25, 19, 61);
+    color: white;
 }

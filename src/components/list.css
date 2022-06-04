@@ -1,0 +1,14 @@
+.item {
+    margin: 2% 0;
+    padding: 5%;
+    border-radius: 1em;
+    font-size: small;
+    background-color:  rgb(25, 19, 61);
+    color: white;
+}
+.title {
+    font-size: xx-small;
+    font-weight: lighter;
+    font-style: italic;
+    color: white;
+}
