@@ -5,12 +5,18 @@
     font-size: small;
     background-color:  rgb(25, 19, 61);
     color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .title {
     font-size: xx-small;
     font-weight: lighter;
     font-style: italic;
     color: white;
+}
+.isDone {
+    text-decoration: line-through;
 }
 @media screen and (min-width: 767px) {
     .title {

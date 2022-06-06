@@ -4,7 +4,7 @@ import List from './components/List';
 import Input from './components/Input';
 import { v4 as uuidv4 } from 'uuid';
 
-let arrayOfNotes = []
+let arrayOfNotes = [{}]
 const App = () => {
   const [data_from_input, setData_from_input] = useState([])
 
@@ -16,7 +16,7 @@ const App = () => {
   
   const pullData_function = (data) => {
     console.log('pulling data to parent')
-    arrayOfNotes.push(data)
+    arrayOfNotes.push({string: data, isDone: false })
     //console.log('array of notes: ' , arrayOfNotes)
     setData_from_input([...arrayOfNotes])
     console.log('data from input is: ' , data_from_input)
