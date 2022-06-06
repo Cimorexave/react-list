@@ -13,7 +13,7 @@ const List = ({notes}) => {
               <p className={`${item.isDone? 'isDone': ''}`} > {item.string} </p>
               <button 
               className={` checkBtn ${item.isDone? 'isDoneBtn': ''}`}
-              onClick={()=> {item.isDone = !item.isDone; item.key = uuidv4(); setkeyState(Math.random()) ;console.log(item.isDone)}}></button>
+              onClick={()=> {item.isDone = !item.isDone; item.key = uuidv4(); setkeyState(Math.random())}}></button>
             </div>
         )})}
     </>
