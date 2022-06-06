@@ -41,7 +41,7 @@ body {
     color: white;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 600px) {
     .header {
         justify-content: left;
         padding-left: 1em;

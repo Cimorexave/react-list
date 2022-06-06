@@ -27,7 +27,7 @@
     border: none;
     border-radius: 50%;
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 600px) {
     .title {
         font-size: large;
     }
