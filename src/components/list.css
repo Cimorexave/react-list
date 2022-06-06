@@ -18,6 +18,15 @@
 .isDone {
     text-decoration: line-through;
 }
+.isDoneBtn {
+    background-color: green;
+}
+.checkBtn {
+    width: 1em;
+    aspect-ratio: 1;
+    border: none;
+    border-radius: 50%;
+}
 @media screen and (min-width: 767px) {
     .title {
         font-size: large;

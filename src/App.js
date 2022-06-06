@@ -16,7 +16,7 @@ const App = () => {
   
   const pullData_function = (data) => {
     console.log('pulling data to parent')
-    arrayOfNotes.push({string: data, isDone: false })
+    arrayOfNotes.push({string: data, isDone: false, key: uuidv4() })
     //console.log('array of notes: ' , arrayOfNotes)
     setData_from_input([...arrayOfNotes])
     console.log('data from input is: ' , data_from_input)
