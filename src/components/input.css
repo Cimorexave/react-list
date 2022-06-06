@@ -38,6 +38,9 @@ p {
     .textField {
         width: 25em;
         height: 5ch;
+        padding-left: 1ch;
+        font-size: x-large;
+        color: rgb(25, 19, 61);
     }
     p {
         font-size: larger;
