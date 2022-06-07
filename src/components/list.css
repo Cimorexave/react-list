@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 .title {
     font-size: xx-small;
@@ -27,6 +28,19 @@
     border: none;
     border-radius: 50%;
 }
+.deleteBtn {
+    background-color: red;
+    width: 1.5em;
+    display: grid;
+    place-items: center;
+    aspect-ratio: 1;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    right: 3em;
+}
 @media screen and (min-width: 600px) {
     .title {
         font-size: large;
@@ -34,5 +48,8 @@
     .item {
         font-size: large;
         padding: 3.5%;
+    }
+    .deleteBtn {
+        right: 4em;
     }
 }
