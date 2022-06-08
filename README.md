@@ -1,5 +1,5 @@
 This is a simple web app built by react. 
 To see it live, visit:
-<h3>
+<h1>
   https://cimorexave.github.io/react-list/
-</h3>
+</h1>
